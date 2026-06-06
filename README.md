@@ -47,7 +47,7 @@ End-to-end data analysis and machine learning on the **UCI Air Quality dataset**
 │   ├── EDA_dashboard.py          ← 13-tab analysis
 │   └── ML_Models.py              ← 5-tab ML engine
 │
-└── Screenshots/P6_EDA_Tab 1.pdf
+└── Reports/P6_EDA_Tab 1.pdf
 
 
 ```
