@@ -6,6 +6,8 @@ Dataset: UCI Air Quality · Italy · 2004–2005
 # =============================================================================
 ## path = streamlit run "G:\FINAL_PROJECTS\P6_Air_Quality_(UCI )\EDA_dashboard.py" 
 # ─────────────────────────────────────────────────────────────────────────────
+import streamlit as st
+
 import pathlib, warnings
 import numpy as np
 import pandas as pd
@@ -20,7 +22,7 @@ from scipy.stats import zscore
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-import streamlit as st
+
 
 warnings.filterwarnings("ignore")
 S = st.session_state
