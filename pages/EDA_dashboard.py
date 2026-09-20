@@ -557,7 +557,7 @@ with tabs[6]:
     st.markdown("---")
     # ── Rolling 7-day CO
     sec("📉 Rolling 7-Day Average CO(GT)")
-    df_ts = df.set_index("Datetime")["CO(GT)"].resample("h").mean().fillna(method="ffill")
+    df_ts = df.set_index("Datetime")["CO(GT)"].resample("h").mean().ffill()
     rolling = df_ts.rolling(window=168).mean()  # 168 hours = 7 days
 
     fig4 = go.Figure()
