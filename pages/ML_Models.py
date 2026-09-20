@@ -3,6 +3,7 @@ Repo_6_Air_Quality — ML_Models.py  (5 Tabs)
 Author : Mohamed · M3
 Pattern: Same as P4/P5 — individual model training + safe session state
 """
+import streamlit as st
 
 import pathlib, warnings, os, time
 import numpy as np
@@ -28,7 +29,7 @@ from sklearn.metrics import (
     confusion_matrix, classification_report, ConfusionMatrixDisplay, roc_curve
 )
 
-import streamlit as st
+
 warnings.filterwarnings("ignore")
 S = st.session_state
 
