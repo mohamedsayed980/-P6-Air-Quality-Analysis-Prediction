@@ -508,7 +508,7 @@ with tabs[1]:
             sec("🔲 Confusion Matrix — Best Model")
             cm = confusion_matrix(S["c_yte"], res_c[best_c_name]["preds"])
             fig2, ax2 = plt.subplots(figsize=(5,4))
-            ConfusionMatrixDisplay(cm, display_tick_labels=["Low(0)","High(1)"]).plot(
+            ConfusionMatrixDisplay(cm, display_labels=["Low(0)","High(1)"]).plot(
                 ax=ax2, colorbar=False, cmap="Blues")
             ax2.set_title(f"Confusion Matrix — {best_c_name}", fontweight="bold")
             plt.tight_layout(); st.pyplot(fig2); plt.close()
