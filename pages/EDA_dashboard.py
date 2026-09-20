@@ -695,7 +695,7 @@ with tabs[8]:
         fig2, ax2 = plt.subplots(figsize=(6, 4))
         bp = ax2.boxplot([group_A.dropna(), group_B.dropna()],
                          patch_artist=True,
-                         labels=["Off-Peak","Rush Hour"])
+                         tick_labels=["Off-Peak","Rush Hour"])
         bp["boxes"][0].set_facecolor(CLR["light"])
         bp["boxes"][1].set_facecolor("#fff3e0")
         for med in bp["medians"]:
