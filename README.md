@@ -1,5 +1,5 @@
 # 🌫️ P6 — Air Quality Analysis & Prediction
-**M3 · ML Engine Portfolio · Project 6 of 12**
+**M3 · ML Engine Portfolio · Project 6 of 13**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)](https://streamlit.io)
